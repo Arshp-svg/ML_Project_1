@@ -1,5 +1,6 @@
 pandas
 numpy
+Flask
 seaborn
 scikit-learn
 xgboost
