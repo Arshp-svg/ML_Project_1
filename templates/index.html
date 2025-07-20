@@ -1,2 +1,62 @@
-<h1> Welcome to the MLOps Project! </h1>
-<p> This project is designed to demonstrate the end-to-end process of deploying a machine learning model
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Exam Performance Indicator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="/static/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+</head>
+<body>
+    <header>
+        <div class="nav-container" style="justify-content: center;">
+            <div class="logo" style="justify-content: center;">
+                <div class="logo-placeholder"><i class="fa-solid fa-graduation-cap"></i></div>
+                <span class="title">Student Exam Performance Indicator</span>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="card" style="text-align:center;">
+            <h1 style="color: var(--primary); font-size: 2.2rem; font-weight: 700; margin-bottom: 1.2rem;">Welcome to the MLOps Project!</h1>
+            <p style="font-size: 1.15rem; color: #334155; margin-bottom: 1.5rem;">
+                This project is designed to demonstrate the end-to-end process of deploying a machine learning model.<br>
+                <br>
+                <span style="font-weight: 500; color: var(--primary);">Features:</span><br>
+                <ul style="display:inline-block; text-align:left; margin: 0 auto; color: #334155; font-size: 1.08rem;">
+                    <li>Modern, production-grade MLOps workflow</li>
+                    <li>Interactive student performance prediction</li>
+                    <li>Clean, responsive UI with Flask & HTML/CSS</li>
+                    <li>Reusable code and modular design</li>
+                </ul>
+                <br>
+                <span style="color: #64748b; font-size: 1rem;">Explore the prediction form to see the model in action!</span>
+            </p>
+            <div style="display: flex; justify-content: center;">
+                <a href="/predict" style="
+                    display: inline-block;
+                    background: #2563eb;
+                    color: #fff;
+                    padding: 0.75em 2.2em;
+                    border: none;
+                    border-radius: 0.5em;
+                    font-size: 1.15rem;
+                    font-weight: 600;
+                    text-decoration: none;
+                    box-shadow: 0 2px 8px rgba(37,99,235,0.08);
+                    transition: background 0.18s;
+                " onmouseover="this.style.background='#1e40af'" onmouseout="this.style.background='#2563eb'">
+                    Go to Prediction Form
+                </a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        © 2025 Student Exam Predictor | Built with for ML Deployment Practice
+    </footer>
+</body>
+</html>
