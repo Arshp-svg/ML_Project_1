@@ -55,22 +55,6 @@ The best-performing model is saved for deployment.
 
 ---
 
-## 🧩 Project Structure
-
-- ML_Project_1/
- - ├── data/ # Raw & processed CSVs
- - ├── notebooks/ # EDA and model-training notebooks
- - ├── src/ # Python scripts for pipeline components
- - ├── backend/ # Flask app
- - ├── frontend/ # React UI
- - ├── models/ # Trained model & preprocessor pickle files
- - ├── requirements.txt # Python dependencies
- - └── README.md # This file
-
-
-
----
-
 ## 🔧 Installation & Usage
 
 1. **Clone the repo**
