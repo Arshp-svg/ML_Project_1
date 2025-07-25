@@ -36,5 +36,5 @@ def predict_datapoint():
     
     
 if __name__ == "__main__":
-    app.run()
+    app.run(host="0.0.0.0",port=80)
     # app.run(debug=True)  # For local development, you can use debug=True
