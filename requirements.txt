@@ -7,4 +7,4 @@ xgboost
 matplotlib
 catboost
 dill
--e .
+# -e .
